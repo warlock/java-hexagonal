@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import gl.js.jhex.domain.Orders;
-import gl.js.jhex.infrastructure.inputport.OrderInputPort;
+import gl.js.jhex.domain.inputport.OrderInputPort;
 
 @RestController
 @RequestMapping(value = "order")

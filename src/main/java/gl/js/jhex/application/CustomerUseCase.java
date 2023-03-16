@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import gl.js.jhex.domain.Customer;
-import gl.js.jhex.infrastructure.inputport.CustomerInputPort;
-import gl.js.jhex.infrastructure.outputport.EntityRepository;
+import gl.js.jhex.domain.inputport.CustomerInputPort;
+import gl.js.jhex.domain.outputport.EntityRepository;
 
 @Component
 public class CustomerUseCase implements CustomerInputPort {

@@ -13,7 +13,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Component;
 
-import gl.js.jhex.infrastructure.outputport.EntityRepository;
+import gl.js.jhex.domain.outputport.EntityRepository;
 
 @Component
 public class PostgresRepository implements EntityRepository {
